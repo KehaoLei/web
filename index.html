@@ -1,4 +1,3 @@
-<!--改了-->
 <!doctype html>
 <html>
 <head>
@@ -212,9 +211,8 @@
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
       <!-- Portfolio Item -->
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item effect-oscar">
-
         <div class="portfolio_img">
-		<img src="img/portfolio_pic1"  alt="Portfolio 1"> </div>
+		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div>
 			<figcaption>
 				<div>
 				  <a href="img/portfolio_pic1.jpg" class="fancybox">
@@ -252,9 +250,7 @@
 				</div>
 			</figcaption>
         </figure>
-      <!--/Portfolio Item--> 
-      
-      <!-- Portfolio Item-->
+
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
          <figcaption>		
@@ -266,79 +262,42 @@
 				</div>
 			</figcaption>
       </figure>
-      <!-- Portfolio Item --> 
-      
-
-      
-
-
     </div>
-    <!--/Portfolio Wrapper --> 
-    
   </div>
-  <!--/Portfolio Filters -->
-  
   <div class="portfolio_btm"></div>
-
-
   <div id="project_container">
     <div class="clear"></div>
     <div id="project_data"></div>
   </div>
 
-  
 </section>
 
 <section id="experience" class="timeline">
 	<div class="container">
-		<h2>Message Borad</h2>
+		<h2>Message Board</h2>
 		<h6>You can write your thoughts here</h6>
 		<div class="qa-message-list" id="wallmessages">
-			<div class="message-item" id="m16">
-				<div class="message-inner">
-					<div class="message-head clearfix">
-						<div class="user-detail">
-							<h5 class="handle">Yahoo Technology</h5>
-							<div class="post-meta">
-								<div class="asker-meta">
-									<span class="qa-message-what"></span>
-									<span class="qa-message-when">
-												<span class="qa-message-when-data">Jan 21</span>
-											</span>
-								</div>
-							</div>
+			<div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">
+				<figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item effect-oscar">
+					<div class="portfolio_img" > <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+					<figcaption>
+						<div>
+							<a href="board.html" class="fancybox">
+								<h2>Click<span>Here</span></h2>
+							</a>
 						</div>
-					</div>
-					<div class="qa-message-content">
-						Yo!
-					</div>
-				</div></div>
+					</figcaption>
+				</figure>
 
-			<div class="message-item" id="m1">
-				<div class="message-inner">
-					<div class="message-head clearfix">
-						<div class="user-detail">
-							<h5 class="handle">Accenture</h5>
-							<div class="post-meta">
-								<div class="asker-meta">
-									<span class="qa-message-what"></span>
-									<span class="qa-message-when">
-												<span class="qa-message-when-data">Oct 24, 2013</span>
-											</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="qa-message-content">
-						Nunc ante neque, feugiat at dictum ut, dignissim sed sapien. Pellentesque congue eu nisl sit amet cursus. Integer dapibus adipiscing metus ac vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum iaculis mi, non dapibus nulla eleifend sed. Etiam ac commodo leo. Donec non sem id tellus mattis convallis. Morbi dapibus nulla ac dui lacinia,
-					</div>
-				</div></div>
+			</div>
 
 		</div>
 	</div>
 </section>
 
 <!--Footer-->
+
+
 <footer class="footer_wrapper" id="contact">
   <div class="container">
     <section class="page_section contact" id="contact">
@@ -364,10 +323,12 @@
                             </div> 
                         </div>
         </div>
+
         <div class="col-lg-8 wow fadeInLeft delay-06s">
+
          	  <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
         
-		<form name="sentMessage" id="contactForm"  novalidate> 
+		<form name="sentMessage" id="contactForm"  method="post" action="../mail.php" novalidate>
 		 <div class="control-group">
                     <div class="controls">
 			<input type="text" class="form-control" 
@@ -382,6 +343,7 @@
 			   	            id="email" required
 			   		   data-validation-required-message="Please enter your email" />
 		</div>
+
 	    </div> 	
 			  
                <div class="control-group">
